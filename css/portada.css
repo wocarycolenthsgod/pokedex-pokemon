@@ -1,0 +1,189 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+  
+
+
+.row-body{
+    width: 1150px;
+    height: 600px;
+    margin: 0;
+    padding: 25px;
+    background-color:  #74583E;
+    display: flex;
+    justify-content: center;
+   /*  align-items: center; */
+    position: relative;
+}
+
+
+.row-book{
+    width: 807px;
+    background-color: #273652;
+   display: flex;
+   align-items: center;
+   position: relative;
+ 
+    
+}
+.patron-img{
+    width: 100%;
+    height: 100%;
+   
+}
+.corner-top{
+position: absolute;
+top: -1px;
+right: -1px;
+z-index: 1;
+}
+.corner-bottom{
+position: absolute;
+bottom: -1px;
+right: -1px;
+transform: rotate(90deg);
+z-index: 1;
+}
+
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+
+h2{
+    color: white;
+}
+p{
+   color:  #314d67;
+}
+
+
+
+
+.section-1{
+    display: flex;
+    height: 545px;
+   
+    position: absolute;
+    top: 51px;
+    left: 0;
+    
+}
+.section-2{
+    width: 100%;
+   
+    position: absolute;
+    bottom: 0;
+}
+/* good */
+
+
+
+
+
+
+ 
+   
+   
+  
+ 
+   
+ 
+
+
+   
+ 
+ 
+  
+
+    
+.row-pies-body{
+    width: 100%;
+    height: 30px;
+    background-color:  #4B352D;
+    display: flex;
+    align-items: center;
+}
+.pies-sec-iz{
+width: 164px;
+height: 90%;
+margin-right: 21px;
+/* background-color: greenyellow; */
+position: absolute;
+right: 40px;
+
+}
+.pies-sec-der{
+    width: 86px;
+    height: 90%;
+    margin: 0;
+  /*   background-color: rgb(255, 47, 189); */
+    position: absolute;
+    right: -9px;
+}
+.boton{
+    width: 30px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #ffeccb;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.boton :hover{
+    width: 30px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    color: rgb(253, 253, 253);
+    background-color: #ef1c1c;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.boton-letra1{
+    width: 130px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ /*    background-color: black; */
+    position: absolute;
+    left: 30px;
+    display: flex;
+    align-items: center;
+}
+.boton-letra2{
+    width: 55px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  /*   background-color: black; */
+    position: absolute;
+    left: 30px;
+    display: flex;
+    align-items: center;
+}
+.letra-bajo-boton{
+    color: white;
+    margin-left: 8px;
+
+    
+}
