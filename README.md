@@ -1,4 +1,46 @@
-﻿# PokedeskPokemon
+Overview:
+Static web project that works as a simple Pokédex. It includes individual HTML pages for different Pokémon, multimedia resources (images and audio), and CSS styles for presentation.
+
+Main Features:
+
+Individual pages per Pokémon with visual information and audio.
+
+Organized folder structure: Assets/ for images and audio, css/ for styles, and HTML files in the root or html/ folder.
+
+Simple, lightweight interface designed for local viewing in the browser.
+
+File Structure (Summary):
+
+index.html: main page / container
+
+portada.html: cover page
+
+Pokémon HTML files (e.g., Pikachu.html, Eevee.html, etc.)
+
+css/ with style.css and portada.css
+
+Assets/ with images, GIFs, and audio
+
+How to Use:
+
+Clone or download the repository.
+
+Open index.html (or portada.html) in a web browser.
+
+Alternatively, serve the folder with a static server (e.g., live-server, http-server) for additional local functionality.
+
+Technologies Used:
+HTML, CSS, multimedia assets (images and audio).
+
+Contributions and License:
+For suggestions, changes, or license details, check README.md or open an issue in the repository.
+
+Author: Esteban Guzman
+Date: 2026-01-03
+ 
+ #Español:
+ 
+ # PokedeskPokemon
 Nombre del proyecto: Pokedex Pokémon
 
 Descripción general:
@@ -29,4 +71,5 @@ Para sugerencias, cambios o detalles sobre la licencia revisa `README.md` o abre
 
 Autor: Esteban Guzman   
 Fecha: 2026-01-03
+
 
